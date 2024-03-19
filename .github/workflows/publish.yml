@@ -15,7 +15,7 @@ jobs:
           submodules: "recursive"
       - name: Build site
         run: |
-          docker run --rm -v ${{ github.workspace }}:/src klakegg/hugo:0.88.1-ext-alpine-ci hugo --minify --destination public
+          docker run --rm -v ${{ github.workspace }}:/src public.ecr.aws/chobiolab/hugo:0.123.7 hugo --minify --destination public
       - name: Configure AWS
         uses: aws-actions/configure-aws-credentials@v2
         with:
