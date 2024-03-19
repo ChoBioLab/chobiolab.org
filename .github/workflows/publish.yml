@@ -3,7 +3,7 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - production
+      - prod
 
 jobs:
   build:
@@ -12,7 +12,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
         with:
-          submodules: 'recursive'
+          submodules: "recursive"
       - name: Build site
         run: |
           docker run --rm -v ${{ github.workspace }}:/src klakegg/hugo:0.88.1-ext-alpine-ci hugo --minify --destination public
