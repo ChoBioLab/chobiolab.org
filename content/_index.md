@@ -8,14 +8,13 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
+        Cho Bio Lab
       image:
         filename: welcome.jpg
       text: |
         <br>
         
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+        The **Cho Bio Lab** investigates the genetic and immunologic factors associated with Crohn’s Disease and Ulcerative Colitis, collectively known as Inflammatory Bowel Diseases (IBD)
   
   - block: collection
     content:
