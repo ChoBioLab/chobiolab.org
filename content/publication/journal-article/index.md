@@ -1,16 +1,18 @@
 ---
-title: "An example journal article"
+title: "A myeloid–stromal niche and gp130 rescue in NOD2-driven Crohn’s disease"
 authors:
-- admin
-- Robert Ford
+- Kyle
+- FelixChuang
+- JudyCho
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
-date: "2015-09-01T00:00:00Z"
-doi: ""
+- "Contact"
+date: "2021-03-21T00:00:00Z"
+doi: "https://doi.org/10.1038/s41586-021-03484-5"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2021-03-21T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -18,13 +20,13 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
+publication: "*Nature*(593)"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Crohn’s disease is a chronic inflammatory intestinal disease that is frequently accompanied by aberrant healing and stricturing complications. Crosstalk between activated myeloid and stromal cells is critical in the pathogenicity of Crohn’s disease1,2, and increases in intravasating monocytes are correlated with a lack of response to anti-TNF treatment3. The risk alleles with the highest effect on Crohn’s disease are loss-of-function mutations in NOD24,5, which increase the risk of stricturing6. However, the mechanisms that underlie pathogenicity driven by NOD2 mutations and the pathways that might rescue a lack of response to anti-TNF treatment remain largely uncharacterized. Here we use direct ex vivo analyses of patients who carry risk alleles of NOD2 to show that loss of NOD2 leads to dysregulated homeostasis of activated fibroblasts and macrophages. CD14+ peripheral blood mononuclear cells from carriers of NOD2 risk alleles produce cells that express high levels of collagen, and elevation of conserved signatures is observed in nod2-deficient zebrafish models of intestinal injury. The enrichment of STAT3 regulation and gp130 ligands in activated fibroblasts and macrophages suggested that gp130 blockade might rescue the activated program in NOD2-deficient cells. We show that post-treatment induction of the STAT3 pathway is correlated with a lack of response to anti-TNF treatment in patients, and demonstrate in vivo in zebrafish the amelioration of the activated myeloid–stromal niche using the specific gp130 inhibitor bazedoxifene. Our results provide insights into NOD2-driven fibrosis in Crohn’s disease, and suggest that gp130 blockade may benefit some patients with Crohn’s disease—potentially as a complement to anti-TNF therapy.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: 
 
 tags:
 - Source Themes
@@ -33,8 +35,8 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_pdf: ''
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -45,7 +47,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: ''
   focal_point: ""
   preview_only: false
 

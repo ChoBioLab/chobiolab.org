@@ -34,12 +34,18 @@ marketing:
 header:
   navbar:
     enable: true
-    align: r
-    show_logo: true
+    blox: "navbar"
+    align: center
+    fixed_to_top: true
+    logo:
+      # Logo text
+      text: ""
+      # Logo filename in `assets/media/` folder
+      filename: "cholablogo.png"
     show_language: false
     show_day_night: true
     show_search: true
-    highlight_active_link: false
+    highlight_active_link: true
 
 # Site footer
 
